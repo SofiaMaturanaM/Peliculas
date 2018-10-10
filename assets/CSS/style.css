@@ -1,0 +1,73 @@
+.firstTitle {
+    width: 4rem;
+    height: 4rem;
+    border: 4px;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.container {
+    background-color: rgba(128, 128, 128, 0.609);
+    margin-top: 2%;
+    height: 150vh;
+    border-radius: 1em;
+}
+
+.header {
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.card {
+    padding: 0%;
+    background: none;
+    border: none;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+ ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+#movies {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 130vh;
+}
+
+.card-header {
+    background-color: #ffff;
+    margin: 1%;
+    border-radius: 20rem;
+}
+
+.moreInfo {
+    background-color: #ffff;
+}
+
+@media (max-width: 700px) {
+    .btn-link {
+        font-size: 14px !important;
+    }
+    .firstTitle {
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 4px;
+    }
+    .container {
+        margin-top: 0%;
+    }
+}
